@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b12746688243954aa8b0bbe331fd0c0, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  weaponName: Pistol
+  model: {fileID: 1694449805434718, guid: 6f1a7354265853f44b0ed5e2e43676ad, type: 3}
+  damage: 10
+  fireRate: 50
+  currentAmmo: 10
+  reloadSpeed: 3
+  ammoCapacity: 10
+  magazine: 6
+  isReloading: 0
+  maxDistance: 30
+  image: {fileID: 21300000, guid: 657c40389e766144c9356f2335d1b936, type: 3}
+  shootAudio: {fileID: 8300000, guid: 0e5ec5d798406aa4699be8c44dd7599f, type: 3}
+  reloadAudio: {fileID: 8300000, guid: 5e7f633dda3117f4f90253f51ee065f0, type: 3}
